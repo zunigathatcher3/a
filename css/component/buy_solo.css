@@ -1,0 +1,135 @@
+.buy_solo {
+	margin: 40px 0 0 0;
+	padding: 60px 0;
+	color: var(--w);
+	position: relative;
+	background: var(--theme_v);
+}
+.buy_solo_product {
+	text-align: center;
+}
+.buy_solo_product img {
+	width: 100%;
+	max-width: 300px;
+	margin-bottom: -6px;
+}
+.buy_solo_timer_title {
+	text-align: center;
+	font-weight: bold;
+	margin: 20px 0;
+}
+.buy_solo_timer_title h3 {
+	line-height: 1em;
+}
+.buy_solo_timer_title h3 span {
+	color: var(--theme_yellow_light);
+}
+.buy_solo_timer_container {
+	background: var(--theme_yellow);
+	border-radius: 10px;
+	max-width: 300px;
+	margin: 0 auto;
+	border: 2px solid var(--w);
+}
+.buy_solo_timer_container > div {
+	width: 100px;
+	text-align: center;
+	padding: 10px;
+}
+.buy_solo_timer_container > div > h2 {
+	line-height: 1em;
+	letter-spacing: -2px;
+}
+.buy_solo_title {
+	margin-bottom: 20px;
+	max-width: 550px;
+	margin: 0 auto 20px auto;
+	font-weight: bold;
+}
+.buy_solo_title h2 {
+	line-height: 1em;
+	text-align: center;
+}
+.buy_solo_container > ul > li:not(:last-child){
+	margin-bottom: 10px;
+}
+.buy_solo_container > ul > li > i {
+	font-size: 1.1em;
+	margin-right: 10px;
+	color: var(--theme_green);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	background: var(--w);
+}
+.buy_solo_price {
+	margin: 20px 0;
+	text-align: center;
+}
+.buy_solo_old_price{
+	opacity: 0.90;
+	position: relative;
+}
+.buy_solo_old_price:after {
+	content: "";
+	display: block;
+	position: absolute;
+	width: 150px;
+	height: 1px;
+	background: var(--w);
+	opacity: 0.9;
+	left: 50%;
+	top: 50%;
+	transform: translate3d(-50%, -50% , 0);
+}
+.buy_solo_link {
+	margin-top: 20px;
+}
+.buy_solo_link a {
+	background: var(--theme_yellow);
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: var(--w);
+	padding: 10px 10px;
+	max-width: 360px;
+	border-radius: 10px;
+	margin: 0 auto;
+    animation: rocking 2s infinite;
+    animation-timing-function: cubic-bezier(0, 0, 0.58, 1);
+    transition: .2s;
+}
+.buy_solo_link a:hover {
+	 animation: none;
+	 background: var(--theme_yellow_light); 
+}
+@keyframes rocking{0%{transform:rotate(0deg)}25%{transform:rotate(0deg)}50%{transform:rotate(2deg)}75%{transform:rotate(-2deg)}100%{transform:rotate(0deg)}}
+.buy_solo_payments {
+	text-align: center;
+}
+.buy_solo_payments img {
+	width: 100%;
+	max-width: 320px;
+}
+@media screen and (max-width: 991px) {
+	/*left*/
+	.buy_solo {
+		padding-right: 0;
+	}
+	/*right*/
+	.buy_solo {
+		padding-left: 0;
+	}
+	.buy_solo_title {
+		margin: 20px auto;
+		text-align: center;
+	}
+	.buy_solo_container {
+		max-width: 400px;
+		margin: 0 auto;
+	}
+}

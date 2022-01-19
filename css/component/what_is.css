@@ -1,0 +1,39 @@
+.what_is {
+	padding: 40px 0;
+}
+.what_is_title {
+	margin-bottom: 20px;
+}
+.what_is_title h2 {
+	text-align: center;
+	font-weight: bold;
+	line-height: 1em;
+}
+/*left*/
+.what_is_left {
+	padding-right: 10px;
+	text-align: center;
+}
+.what_is_left img {
+	width: 100%;
+	max-width: 400px;
+	margin-bottom: -6px;
+}
+/*right*/
+.what_is_right {
+	padding-left: 10px;
+}
+.what_is_right > p:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+@media screen and (max-width: 991px) {
+	/*left*/
+	.what_is_left {
+		padding-right: 0;
+	}
+	/*right*/
+	.what_is_right {
+		margin-left: 0;
+	}
+}

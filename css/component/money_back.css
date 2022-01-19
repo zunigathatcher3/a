@@ -1,0 +1,43 @@
+.money_back {
+	margin: 40px 0;
+	padding: 60px 0;
+	color: #151515;
+	background: #DFEEF5;
+}
+.money_back > .wrapper {
+	color: #151515;
+}
+.money_back_image {
+	text-align: center;
+}
+.money_back_image img {
+	width: 100%;
+	max-width: 350px;
+	margin-bottom: -6px;
+}
+/*how_it_works_title*/
+.money_back_title {
+	margin-bottom: 20px;
+}
+.money_back_title h2 {
+	text-align: center;
+	line-height: 1em;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+.money_back_content {
+	text-align: center;
+}
+.money_back_content > p {
+	max-width: 650px;
+	margin: 0 auto;
+}
+.money_back_content > p:not(:last-child) {
+	margin-bottom: 10px;
+}
+@media screen and (max-width: 767px) {
+	.money_back_image img {
+		max-width: 250px;
+		margin-bottom: 10px;
+	}
+}

@@ -1,0 +1,18 @@
+footer {
+	padding-right: 0;
+	padding-left: 0;
+	text-align: center;
+}
+footer a {
+	font-weight: bold;
+}
+.footer_list > li:not(:last-child){
+	margin-right: 10px;
+}
+.footer_payments {
+	margin: 10px 0;
+}
+.footer_payments img {
+	width: 100%;
+	max-width: 320px;
+}
